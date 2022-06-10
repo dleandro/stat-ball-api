@@ -22,11 +22,23 @@ hs_err_pid*
 # Ignore Gradle GUI config
 gradle-app.setting
 
-# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
-!gradle-wrapper.jar
-
 # Cache of project
 .gradletasknamecache
 
-# IntellIJ
+### IntelliJ IDEA ###
 .idea
+*.iws
+*.iml
+*.ipr
+/out
+
+HELP.md
+.git
+*.log
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+*/*.log
+*/.log
+
+.DS_Store
